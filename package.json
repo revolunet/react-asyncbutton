@@ -1,6 +1,6 @@
 {
   "name": "react-asyncbutton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "async button to call urls with visual feedback",
   "main": "./lib/index.js",
   "repository": {
