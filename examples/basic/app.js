@@ -13,7 +13,7 @@ class App extends Component {
     this.refs.log.innerHTML = 'Response 200 received';
   }
   render() {
-    let url = 'https://api.github.com/users/octocat/repos';
+    let url = 'https://api.github.com/users/octocat/repos?r=' + Math.random();
     return (
       <div className='example'>
         <h1>react-asyncbutton</h1>

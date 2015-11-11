@@ -1,7 +1,7 @@
 {
   "name": "react-asyncbutton",
   "version": "0.0.0",
-  "description": "async button to call urls and give minimal visual feedback",
+  "description": "async button to call urls with visual feedback",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -17,12 +17,14 @@
     "test-chrome": "./node_modules/.bin/testem -l Chrome",
     "start": "rackt server"
   },
-  "authors": [
-    "Julien Bouquillon - <julien@revolunet.com>"
-  ],
+  "author": {
+    "name": "Julien Bouquillon",
+    "email":"julien@revolunet.com>"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-runtime": "^6.1.4",
+    "node-readme": "0.1.9",
     "rackt-cli-revolunet": "^0.5.10",
     "react": "^0.14"
   },
