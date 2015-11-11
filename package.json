@@ -1,6 +1,6 @@
 {
   "name": "react-asyncbutton",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "async button to call urls with visual feedback",
   "main": "./lib/index.js",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "author": {
     "name": "Julien Bouquillon",
-    "email":"julien@revolunet.com>"
+    "email": "julien@revolunet.com>"
   },
   "license": "MIT",
   "devDependencies": {
