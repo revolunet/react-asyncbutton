@@ -1,14 +1,14 @@
 {
   "name": "react-asyncbutton",
   "version": "0.0.0",
-  "description": "react component",
+  "description": "async button to call urls and give minimal visual feedback",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": ".git"
+    "url": "https://github.com/revolunet/react-asyncbutton.git"
   },
-  "homepage": "",
-  "bugs": "/issues",
+  "homepage": "https://github.com/revolunet/react-asyncbutton",
+  "bugs": "https://github.com/revolunet/react-asyncbutton/issues",
   "directories": {
     "example": "examples"
   },
@@ -18,10 +18,11 @@
     "start": "rackt server"
   },
   "authors": [
-    ""
+    "Julien Bouquillon - <julien@revolunet.com>"
   ],
   "license": "MIT",
   "devDependencies": {
+    "babel-runtime": "^6.1.4",
     "rackt-cli-revolunet": "^0.5.10",
     "react": "^0.14"
   },
@@ -29,9 +30,19 @@
     "react": "^0.14"
   },
   "tags": [
-    ""
+    "react",
+    "button",
+    "async",
+    "request"
   ],
   "keywords": [
-    ""
-  ]
+    "react",
+    "button",
+    "async",
+    "request"
+  ],
+  "dependencies": {
+    "babel-runtime": "6.1.4",
+    "browser-request": "^0.3.3"
+  }
 }
